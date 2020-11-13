@@ -11,3 +11,61 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Say 'about' when asked
+  steps:
+  - intent: aboutus
+  - action: utter_about
+- rule: say poster when asked
+  steps:
+  - intent: post
+  - action: utter_posting
+- rule: say sayonara when said bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: trendnew
+  steps:
+  - intent: newest
+  - action: utter_trend
+- rule: favour
+  steps:
+  - intent: favs
+  - action: utter_fav
+- rule: cons
+  steps:
+  - intent: contacts
+  - action: utter_con
+- rule: desig
+  steps:
+  - intent: designdev
+  - action: utter_atul
+  - action: utter_adarsh
+- rule: change
+  steps:
+  - intent: profilechange
+  - action: utter_change
+- rule: bot
+  steps:
+  - intent: chatdev
+  - action: utter_lakshya
+- rule: back
+  steps:
+  - intent: backdev 
+  - action: utter_lakshya
+  - action: utter_atul
+- rule: front
+  steps:
+  - intent: frontdev
+  - action: utter_kushal
+- rule: create
+  steps:
+  - intent: creators
+  - action: utter_adarsh
+  - action: utter_kushal
+  - action: utter_lakshya
+  - action: utter_atul
+- rule: say don't know
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase

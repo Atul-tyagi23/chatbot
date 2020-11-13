@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -30,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -39,20 +36,132 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
-    - n
     - never
     - I don't think so
     - don't like that
     - no way
     - not really
-
+- intent: creators
+  examples: |
+    - who created this webpage?
+    - who made this website
+    - this website was created by?
+    - who created this webpage
+- intent: chatdev
+  examples: |
+    - who created the chatbot?
+    - chatbot was created by?
+    - chatbot creator
+    - who worked on chatbot
+    - who contributed in making chatbot
+- intent: backdev
+  examples: |
+    - who worked on backend
+    - who was responsible for backend of this website
+    - backend developer
+- intent: designdev
+  examples: |
+    - who was responsible for resources and design
+    - design and resources
+- intent: frontdev
+  examples: |
+    - who worked on frontend
+    - who was responsible for frontend of this website
+    - frontend developer
+- intent: profilechange
+  examples: |
+    - how to change password
+    - how can i change my passsword
+    - from where can i change password
+    - steps to change password
+    - update my profile
+    - change my profile picture
+    - upload profile picture
+    - change my user name
+    - make changes in my profile
+    - edit my profile
+    - edit user name
+- intent: email
+  examples: |
+    - how to change email address
+    - change my email
+    - how can i change my email
+    - edit my email address
+    - how can change my email
+- intent: forgetpass
+  examples: |
+    - what can i do if i forget my password
+    - i forgot my password
+    - forgot password
+- intent: aboutus
+  examples: |
+    - what is this website about
+    - tell me about this website
+    - what is the purpose of this website
+    - about this website
+- intent: newest
+  examples: |
+    - latest articles
+    - give me latest articles
+    - new articles
+    - trending articles
+    - popular articles
+    - give me trending articles
+- intent: favs
+  examples: |
+    - favourites
+    - my favourite articles
+    - where can i see my favourite articles
+- intent: post
+  examples: |
+    - how can i create my article
+    - how to write an article
+    - where can i see my articles
+    - where can i manage my articles
+    - write articles
+    - create articles
+- intent: contacts
+  examples: |
+    - how can i contact you
+    - do you have a mail id
+    - phone number
+    - contact information
+    - contact info
+    - website mail id
+    - phone number for contacting
+- intent: artic
+  examples: |
+    - [buisness](name) articles
+    - [education](name) articles
+    - [cryptocurrency](name) articles
+    - [entertainment](name) articles
+    - [fashion](name) articles
+    - [food](name) articles
+    - [gaming](name) articles
+    - [health](name) articles
+    - [marketing](name) articles
+    - [media](name) articles
+    - [nature](name) articles
+    - [politics](name) articles
+    - [programming](name) articles
+    - [psycology](name) articles
+    - [science](name) articles
+    - [sexuality](name) articles
+    - [space](name) articles
+    - [spirituality](name) articles
+    - [sports](name) articles
+    - [startup](name) articles
+    - [technology](name) articles
+    - [travel](name) articles
+    - [world](name) articles
 - intent: mood_great
   examples: |
     - perfect
+    - good
+    - awesome
     - great
     - amazing
     - feeling like a king
@@ -66,7 +175,15 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
+- intent: feels
+  examples: |
+    - How are you
+    - How was your day
+    - I am good what about you
+    - How you doing
+    - How you been?
+    - How are you feeling
+    - Not good what about you
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -83,10 +200,31 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+- intent: subscrip
+  examples: |
+    - what is subscription?
+    - How can read more articles?
+    - Premium Subsciption
+    - How can i subscripe?
+    - Plans availbale for subsription?
+- intent: forums
+  examples: |
+    - I am facing a problem.
+    - Where can i ask for help.
+    - i have a doubt
+    - How can i report a problem.
+    - bug
+    - Not working
+    - site crashed
+    - articles not opening
+    - need help
+    - discussion
+    - help required
+    - i am facing a problem
+

@@ -8,6 +8,13 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
+  
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: feels
+  - action: utter_feel
 
 - story: sad path 1
   steps:
@@ -15,16 +22,60 @@ stories:
   - action: utter_greet
   - intent: mood_unhappy
   - action: utter_cheer_up
-  - action: utter_did_that_help
+  - action: utter_help
   - intent: affirm
-  - action: utter_happy
+  - action: utter_feel
 
-- story: sad path 2
+
+
+  
+
+
+
+- story: mail
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+  - intent: email
+  - action: utter_email
+  - action: utter_help
   - intent: deny
   - action: utter_goodbye
+
+
+- story: forget
+  steps:
+  - intent: forgetpass
+  - action: utter_forget
+  - action: utter_help
+  - intent: affirm
+  - action: utter_feel
+- story: search
+  steps:
+  - intent: artic
+  - action: utter_artics
+  - action: utter_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+
+- story: subscribe
+  steps:
+  - intent: subscrip
+  - action: utter_sub
+  - action: utter_help
+  - intent: affirm
+  - action: utter_feel
+- story: forms
+  steps:
+  - intent: forums
+  - action: utter_solve
+  - action: utter_help
+  - intent: deny
+  - action: utter_goodbye
+- story: fronti
+  steps:
+  - intent: frontdev
+  - action: utter_kushal
+
+
+

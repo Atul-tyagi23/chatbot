@@ -1,0 +1,109 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- backdev
+- forums
+- frontdev
+- email
+- aboutus
+- creators
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- forgetpass
+- newest
+- artic
+- profilechange
+- chatdev
+- designdev
+- feels
+- subscrip
+- contacts
+- post
+- favs
+slots:
+  name:
+    type: unfeaturized
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hello, How are you? :)
+  - text: Yahallo!
+  - text: Hey, What sup..
+  - text: Heya, How you doing..
+  utter_feel:
+  - text: Good
+  - text: Great
+  - text: Awesome
+  - text: Amazing
+  utter_trend:
+  - text: For trending and latest articles click on following link - 'https://frontend.k-kumar-01.vercel.app/articles'
+  utter_con:
+  - text: Contact information of all the developers is provided on home page.
+  utter_posting:
+  - text: You can manage and create your articles in My Dashboard given in menu.
+  utter_fav:
+  - text: You can see and edit your favourites through favourite option provided in menu in taskbar.
+  utter_cheer_up:
+  - text: Is there anything i can do for u?
+  - text: Anything i can do :(
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great!
+  - text: Glad to hear that.
+  - text: Awesome!!
+  utter_goodbye:
+  - text: Bye
+  - text: Bye, Good day.
+  - text: Bye, Catch you later ;)
+  - text: Babye, See you next time
+  - text: Bye, See you soon
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_lakshya:
+  - text: Lakshya Vardhan Singh Rathore (Backend and Chatbot)
+  utter_atul:
+  - text: Atul Tyagin (Backend and Design)
+  utter_kushal:
+  - text: Kushal Kumar (Full Stack)
+  utter_adarsh:
+  - text: Adarsh Mishra (Design and Resources)
+  utter_change:
+  - text: To make changes go to your profile page and change the respected field and click on save changes.
+  utter_email:
+  - text: You cannot change your email address.
+  utter_forget:
+  - text: Click on forget password option on sign in/up page. You can change your passsword after email verification
+  utter_artics:
+  - text: For {name} click on this link - 'https://frontend.k-kumar-01.vercel.app/category/{name}'
+  utter_about:
+  - text: Titan Read is built and designed by developers to provide easy-to-use and pleasant environment for it's users to share and read articles of their interest.
+  utter_help:
+  - text: Is there anything else i can assist you with?
+  - text: Anything else you want to ask?
+  - text: 'If you have further doubts, ask away.. '
+  - text: If you have any further query, please ask.
+  utter_sub:
+  - text: "Titan read provide premium facilities for non-stop article reading to it's users. There are three plans available according to user's need -: monthly, annual and custom subscription. you can access more information on this in subscription option available in menu."
+  utter_solve:
+  - text: If you are facing any problem related to TitanRead you can open a thread in help option in menu by opening a thread. You are also welcome to help others by solving open request available. Make sure to be friendly towards each other ;) .
+  utter_please_rephrase:
+  - text: Sorry I didn't got that, Can you rephrase the question..
+  - text: Sorry I didn't got that, make sure you to ask relevent question only..
+actions:
+- utter_about
+- utter_adarsh
+- utter_atul
+- utter_email
+- utter_help
+- utter_kushal
+- utter_lakshya
+- utter_solve
+version: '2.0'

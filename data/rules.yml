@@ -69,3 +69,40 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_please_rephrase
+- rule: subscribe
+  steps:
+  - intent: subscrip
+  - action: utter_sub
+  - action: utter_help
+- rule: forms
+  steps:
+  - intent: forums
+  - action: utter_solve
+  - action: utter_help
+- rule: search
+  steps:
+  - intent: artic
+  - action: utter_artics
+  - action: utter_help
+- rule: forget
+  steps:
+  - intent: forgetpass
+  - action: utter_forget
+  - action: utter_help
+- rule: mail
+  steps:
+  - intent: email
+  - action: utter_email
+  - action: utter_help
+- rule: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+- rule: sad path 1
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+- rule: happy path
+  steps:
+  - intent: feels
+  - action: utter_feel

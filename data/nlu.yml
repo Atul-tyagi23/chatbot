@@ -47,6 +47,7 @@ nlu:
 - intent: creators
   examples: |
     - who created this webpage?
+    - who created this website?
     - who made this website
     - this website was created by?
     - who created this webpage
@@ -55,11 +56,13 @@ nlu:
     - who created the chatbot?
     - chatbot was created by?
     - chatbot creator
+    - chatbot
     - who worked on chatbot
     - who contributed in making chatbot
 - intent: backdev
   examples: |
     - who worked on backend
+    - backend
     - who was responsible for backend of this website
     - backend developer
 - intent: designdev
@@ -69,6 +72,7 @@ nlu:
 - intent: frontdev
   examples: |
     - who worked on frontend
+    - frontend
     - who was responsible for frontend of this website
     - frontend developer
 - intent: profilechange
@@ -87,7 +91,10 @@ nlu:
 - intent: email
   examples: |
     - how to change email address
+    - how to change email id
     - change my email
+    - change my email id
+    - change my email address
     - how can i change my email
     - edit my email address
     - how can change my email
@@ -212,6 +219,7 @@ nlu:
     - How can read more articles?
     - Premium Subsciption
     - How can i subscripe?
+    - subscription
     - Plans availbale for subsription?
 - intent: forums
   examples: |
